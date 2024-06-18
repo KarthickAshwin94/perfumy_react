@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+.perfumy{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+.products{
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+.products li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:gray;
+}
+.Search{
+    border:1px solid black;
+    padding:10px;
+    width:60%;
+   margin:100px;
+   margin-left:300px;
+   border-radius: 4px;
+
+}
+.Search input{
+    border:none;
+    width:90%;
+    padding:10px;
+    font-size: large; 
+}
+.Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+.Products_One,.Products_Two,.Products_Three{
+    border:1px solid black;
+    height:350px;
+    width:300px;
+}
+.Products img{
+    height:300px;
+    width:300px;
+}
+.Products_One p,.Products_Two p,.Products_Three p {
+    font-size:large;
+    text-align: center;
+}
+.Products_One:hover{
+    cursor: pointer;
+    .One_Desc{
+        color:white;
+        background-color: black;
+    }
+}
+.Products_Two:hover{
+    cursor:pointer;
+    .Two_Desc{
+        color:white;
+        background-color: black;
+    }
+}
+.Products_Three:hover{
+    cursor:pointer;
+    .Three_Desc{
+        color:white;
+        background-color: black;
+    }
+}
+
+.About_us{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.Contact{
+    background-color: black;
+    color:white;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom:50px;
+    padding-top:20px;
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+}
+.Contact_One{
+    text-align: center;
+    font-size:x-large;
+}
+.Contact_Two p{
+    font-size:large;
+}
